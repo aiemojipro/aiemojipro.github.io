@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html style="font-size: 100px;">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="copyright" content="" />
+  <title>AiEmoji</title>
+  <meta name="description" content="AiEmoji">
+  <meta name="keywords" content="AiEmoji">
+  <meta property="og:title" content="AiEmoji">
+  <meta property="og:description" content="AiEmoji">
+  <meta property="og:site_name" content="aiemojipro.github.io">
+  <meta property="og:image" content="">
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/flex.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript">
+    ! function(e) {
+        function t(e, t, n, o) {
+            "function" != typeof n && alert("please pass a callback function!"), o = o || !1, document.addEventListener ? e.addEventListener(t, n, o) : e.attachEvent("on" + t, n)
+        }
+        var n = function(e) {
+            var t = window.navigator.userAgent,
+                n = /Android|HTC/i.test(t),
+                o = (!n && /iPod|iPhone/i.test(t), window.devicePixelRatio || 1, document.getElementsByName("viewport")[0], document.getElementsByTagName("html")[0]),
+                i = 960,
+                a = 2;
+            var d = document.querySelector(".container").clientWidth;
+            var fontSize = 100 * (d / (i * a)) < 50 ? 50 : 100 * (d / (i * a));
+            o.style.fontSize = fontSize + "px"
+        };
+        t(document, "DOMContentLoaded", n), t(window, "resize", n)
+    }(window);
+
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="section1">
+        <img alt="logo" src="images/logo.png" class="logo">
+        <h1 class="name">AiEmoji</h1>
+        <p class="desc">AiEmoji is an AI-based sticker maker app, which combines rich animated stickers and stylized magic avatars to generate AI stickers of different styles.</p>
+        <a class="download" href="/">
+          <img src="images/ios_btn@2x.png" alt="download image">
+        </a>
+        <a class="download" href="/">
+          <img src="images/android_btn@2x.png" alt="download image">
+        </a>
+      </div>
+      <div class="section2">
+        <img alt="simplebooster" src="images/phone_img@2x.png" class="phone">
+      </div>
+    </div>
+    <div class="footer">
+      <div class="links">
+        <a href="/" target="_blank">PRIVACY POLICY</a>
+        <a href="/" target="_blank" class="line">TERMS OF USE</a>
+        <a href="/" target="_blank">CONTACT US</a>
+      </div>
+      <p class="right">Copyright©2023 AiEmoji</p>
+    </div>
+  </div>
+</body>
